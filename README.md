@@ -13,6 +13,7 @@ The project simulates a real-world scenario where a legacy Python script (`proce
 - Maintain a DEBUG_LOG.md documenting the entire workflow
 
 ## 📁 Repository Structure
+```
 datacom-debugging-simulation/
 │
 ├── process_data.py               # Legacy script (original + refactored)
