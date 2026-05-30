@@ -13,7 +13,25 @@ The project simulates a real-world scenario where a legacy Python script (`proce
 - Maintain a DEBUG_LOG.md documenting the entire workflow
 
 ## 📁 Repository Structure
-(Insert the folder tree here)
+datacom-debugging-simulation/
+│
+├── process_data.py               # Legacy script (original + refactored)
+├── TEST_CASES.py                 # Failing + passing unit tests
+├── DEBUG_LOG.md                  # Your documentation journal
+├── README.md                     # Project overview
+│
+├── /logs
+│   └── error.log                 # Provided error log
+│
+├── /analysis
+│   └── code_summary.md           # Output from Step 1 (AI analysis)
+│
+├── /refactor
+│   └── refactored_function.py    # Optional: isolated refactor
+│
+└── /assets
+    └── screenshots/              # VS Code screenshots, prompts, etc.
+
 
 ## 🧪 Running Tests
 ```bash
