@@ -48,6 +48,8 @@ Python 3.x
 
 unittest
 
-VS Code + Copilot Chat (will update tool)
+VS Code + Copilot Chat
+Google Gemini (Improve prompt)
+Microsoft Co-pilot (Created workflows for future projects)
 
 Forage Datacom Simulation
