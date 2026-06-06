@@ -1,5 +1,5 @@
 # Python AI Debugging Workflow (in Progress)
-## Datacom Debugging and Refactoring Simulation
+## Task 1: AI-Powered Debugging and Refactoring
 
 This repository contains my solution to the Datacom AI‑Powered Debugging and Refactoring Simulation on Forage. 
 The project simulates a real-world scenario where a legacy Python script (`process_data.py`) intermittently fails and performs below SLA requirements.
