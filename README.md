@@ -44,12 +44,15 @@ All debugging notes, prompts, and reasoning are stored in:
 DEBUG_LOG.md
 
 # 🛠 Tools Used
-Python 3.x
+### Python 3.x
+### Code Review
+### unittest
 
-unittest
+### VS Code + Copilot Chat
+### Google Gemini (Improve prompt)
+### Created workflows for future projects
 
-VS Code + Copilot Chat
-Google Gemini (Improve prompt)
-Microsoft Co-pilot (Created workflows for future projects)
+### Forage Datacom Simulation - Task 1 Overview
+### Forage Datacom Simulation - Task 2 Overview
+### Forage Datacom Simulation - Task 3 Overview
 
-Forage Datacom Simulation
