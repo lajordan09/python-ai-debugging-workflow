@@ -1,4 +1,4 @@
-# Python AI Debugging Workflow (in Progress)
+# Python AI Debugging Workflow
 ## Task 1: AI-Powered Debugging and Refactoring
 
 This repository contains my solution to the Datacom AI‑Powered Debugging and Refactoring Simulation on Forage. 
