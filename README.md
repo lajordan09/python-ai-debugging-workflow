@@ -53,6 +53,4 @@ DEBUG_LOG.md
 ### Created workflows for future projects
 
 ### Forage Datacom Simulation - Task 1 Overview
-### Forage Datacom Simulation - Task 2 Overview
-### Forage Datacom Simulation - Task 3 Overview
 
