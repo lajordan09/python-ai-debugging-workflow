@@ -42,12 +42,13 @@ The AI’s breakdown helped me quickly understand the flow and identify where th
 
 ### **Prompt to AI**
 **Diagnose the bug**
-
-I provided the error log:
+```
+[I provided the error log: error.log 
+](https://github.com/lajordan09/python-ai-debugging-workflow/blob/main/error.log)
 
 ```
 Error exporting data: 'dict' object has no attribute 'keys'
-```
+
 
 ### **AI Response (Root Cause)**
 
@@ -120,7 +121,6 @@ self.assertTrue(
     result,
     "JSON export should succeed after handling malformed customer entry safely"
 )
-```
 
 ### **My Notes**
 The updated test passed, confirming the fix.
@@ -177,5 +177,4 @@ These optimizations improved performance without changing behavior.
 4. AI collaboration is most effective when paired with strong testing discipline  
 
 ---
-
 ```
