@@ -1,56 +1,49 @@
 # Python AI Debugging Workflow
+
 ## Task 1: AI-Powered Debugging and Refactoring
 
-This repository contains my solution to the Datacom AI‑Powered Debugging and Refactoring Simulation on Forage. 
-The project simulates a real-world scenario where a legacy Python script (`process_data.py`) intermittently fails and performs below SLA requirements.
+This repository contains my solution for the Datacom AI-Powered Debugging and Refactoring Simulation. It demonstrates a structured, professional approach to diagnosing and fixing a legacy Python data processing script (`process_data.py`) that was intermittently failing and missing service-level agreement (SLA) performance targets. 
+
+By leveraging AI tools as a technical co-pilot, this project highlights core competencies in maintaining and optimizing data pipelines, a critical skill for robust data analytics and engineering.
 
 ## 🔍 Project Objectives
-- Understand and document a legacy codebase
-- Diagnose a critical bug using logs and traceback analysis
-- Write a failing unit test to reproduce the issue
-- Refactor and optimize the problematic function
-- Validate the fix with automated tests
-- Maintain a DEBUG_LOG.md documenting the entire workflow
 
-## 📁 Repository Structure
-```
+* **Codebase Comprehension:** Analyze and document the functionality of undocumented legacy Python code.
+* **Root-Cause Analysis:** Diagnose critical bugs by analyzing system logs and execution tracebacks.
+* **Test-Driven Fixing:** Develop a targeted, failing unit test (`TEST_CASES.py`) to reliably reproduce the issue before altering the code.
+* **Performance Optimization:** Refactor inefficient logic (e.g., O(N^2) nested loops) into highly performant solutions to meet strict SLAs.
+* **Continuous Documentation:** Maintain a comprehensive journal (`DEBUG_LOG.md`) detailing the AI prompts, reasoning, and step-by-step workflow.
+
+## 📂 Repository Structure
+
+```text
 datacom-debugging-simulation/
-│
-├── process_data.py               # Legacy script (original + refactored)
-├── TEST_CASES.py                 # Failing + passing unit tests
-├── DEBUG_LOG.md                  # Your documentation journal
-├── README.md                     # Project overview
-│
-├── /logs
-│   └── error.log                 # Provided error log
-│
-├── /analysis
-│   └── code_summary.md           # Output from Step 1 (AI analysis)
-│
-├── /refactor
-│   └── refactored_function.py    # Optional: isolated refactor
-│
-└── /assets
-    └── screenshots/              # VS Code screenshots, prompts, etc.
+├── process_data.py           # The original legacy script containing the bug
+├── refractored_function.py   # The isolated, optimized function logic
+├── TEST_CASES.py             # Unit tests written to reproduce and validate the fix
+├── DEBUG_LOG.md              # Detailed journal of the AI-assisted debugging process
+├── README.md                 # Project overview and instructions
+└── error.log                 # The sample production error log used for diagnosis
 
 
-## 🧪 Running Tests
-```bash
-python -m unittest TEST_CASES.py
-```
+📝 Documentation
+Transparency and tracking are critical when utilizing AI for code generation and refactoring. All debugging notes, diagnostic reasoning, and specific prompts used during this task are stored in a dedicated file:
 
-# 📝 Documentation
-All debugging notes, prompts, and reasoning are stored in:
-DEBUG_LOG.md
+DEBUG_LOG.md: A comprehensive, step-by-step journal detailing the AI-assisted debugging and root-cause analysis workflow.
 
-# 🛠 Tools Used
-### Python 3.x
-### Code Review
-### unittest
+🛠️ Tools & Technologies Used
+Language: Python 3.x
 
-### VS Code + Copilot Chat
-### Google Gemini (Improve prompt)
-### Created workflows for future projects
+Testing: unittest framework
 
-### Forage Datacom Simulation - Task 1 Overview
+Development Environment: Visual Studio Code (VS Code)
+
+AI Assistants: * GitHub Copilot Chat (for code context and refactoring)
+
+Google Gemini (for prompt optimization and architectural reasoning)
+
+Core Competencies: AI-Assisted Code Review, Test-Driven Development (TDD), and Pipeline Optimization
+
+Context: Datacom Job Simulation on Forage - Task 1
+
 
