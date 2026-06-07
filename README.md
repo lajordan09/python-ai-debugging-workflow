@@ -27,10 +27,12 @@ datacom-debugging-simulation/
 
 
 📝 Documentation
-Transparency and tracking are critical when utilizing AI for code generation and refactoring. All debugging notes, diagnostic reasoning,
-and specific prompts used during this task are stored in a dedicated file:
+Transparency and tracking are critical when utilizing AI for code generation and refactoring.
+All debugging notes, diagnostic reasoning,and specific prompts used during this task are
+stored in a dedicated file:
 
-DEBUG_LOG.md: A comprehensive, step-by-step journal detailing the AI-assisted debugging and root-cause analysis workflow.
+DEBUG_LOG.md: A comprehensive, step-by-step journal detailing the AI-assisted debugging
+and root-cause analysis workflow.
 
 🛠️ Tools & Technologies Used
 Language: Python 3.x
