@@ -1,6 +1,6 @@
 # Python AI Debugging Workflow
 
-## Task 1: AI-Powered Debugging and Refactoring
+## AI-Powered Debugging and Refactoring
 
 This repository contains my solution for the Datacom AI-Powered Debugging and Refactoring Simulation. It demonstrates a structured, professional approach to diagnosing and fixing a legacy Python data processing script (`process_data.py`) that was intermittently failing and missing service-level agreement (SLA) performance targets. 
 
